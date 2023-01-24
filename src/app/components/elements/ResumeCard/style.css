@@ -1,0 +1,13 @@
+.Resume__Items .ResumeCard .ResumeCard__icon::after{
+    content: "";
+    position: absolute;
+    width: 2px;
+    background: #545454;
+    height: 100%;
+    bottom: -50px;
+    left: 48%;
+}
+
+.Resume__Items .ResumeCard:last-child .ResumeCard__icon::after{
+    display: none;
+}

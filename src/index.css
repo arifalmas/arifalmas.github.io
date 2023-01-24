@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,800;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+/* tailwind components */
+@layer components {
+  /* Container */
+  .container {
+    @apply !max-w-screen-xl mx-auto px-4;
+  }
+  /* Section title */
+  .title {
+    @apply text-white mt-2 text-[1.8em] sm:text-[3em];
+  }
+  /* created section title underline */
+  .title-underline {
+    @apply inline relative after:w-[86px] after:h-[1px] after:bg-[#636363] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2;
+  }
+
+  /* Section */
+  section {
+    @apply py-16;
+  }
+
+  /* NavBar Menu */
+  .NavBar__menu {
+    @apply cursor-pointer block py-2 pr-4 pl-5 md:text-gray-200 font-thin md:border-0 md:hover:text-primary-color hover:bg-primary-color md:hover:bg-inherit md:p-0 font-Poppins text-base mb-1 md:mb-0 rounded md:rounded-none;
+  }
+  /* Navbar Sticky */
+  .NavBar__sticky {
+    @apply backdrop-filter backdrop-blur-lg bg-opacity-80 bg-black shadow-lg;
+  }
+  /* NavBar Active Menu */
+  .NavBar__active_menu {
+    @apply md:!text-primary-color bg-primary-color md:bg-transparent md:!border-b border-primary-color font-[500];
+  }
+
+  /* Portfolio ~ Active Type */
+  .Portfolio__active_type {
+    @apply !text-primary-color !border-b-2 !border-primary-color;
+  }
+
+  /* hide scrollbar */
+  /* Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}
+
+body {
+  @apply bg-black;
+}
+
+/* PopUp box hover */
+.project-box {
+  display: block;
+  padding-bottom: 30%;
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background-position: top center;
+  background-size: 100% auto !important;
+  background-repeat: no-repeat;
+  transition: all 5s ease-out 0.5s;
+  -webkit-transition: all 5s ease-out 0.5s;
+  -moz-transition: all 5s ease-out 0.5s;
+  -ms-transition: all 5s ease-out 0.5s;
+  -o-transition: all 5s ease-out 0.5s;
+}
+
+.project-box:hover {
+  background-position: bottom center !important;
+}
+.mask {
+  /* width: 100%; */
+  /* height: 100%; */
+  /* position: fixed; */
+  /* z-index: 0; */
+  /* left: 0;
+  top: 0;
+  right: 0;
+  border: 0;
+  background-color: #0b1120;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='32' height='32' fill='none' stroke='rgb(148 163 184 / 0.05)'%3e%3cpath d='M0 .5H31.5V32'/%3e%3c/svg%3e");
+  mask-image: linear-gradient(to bottom, transparent, rgb(0, 0, 0));
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.871),
+    rgb(0, 0, 0)
+  ); */
+}

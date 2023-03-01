@@ -63,7 +63,7 @@ function Resume() {
               <h3 className="text-white font-semibold">Executive, Support</h3>
               <h5 className="text-white">January-2023 Present </h5>
             </div>
-            <div className="py-8"><p className="text-white w-[350px]">
+            <div className="py-8"><p className="text-white w-[320px]">
 Learn with Sumit - LWS" is all about teaching web development skills and techniques in an efficient and practical manner.If you want to know more, you can visit the website <a href="https://learnwithsumit.com/" className="font-semibold">Learnwithsumit.</a></p></div>
           </div>
           </div>

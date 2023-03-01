@@ -21,7 +21,7 @@ export const RESUME = {
         {
             year: "2022",
             company: "KS Devware",
-            role: "Front-End Web Developer",
+            role: "Front-End Web Development",
             description: "I have complete full front end course from KS Devware and I contributed many works of KS Devware.",
         },
         {

@@ -9,10 +9,11 @@ function ContactInfo({ email, phone, location, country, text }) {
                     <span className="block">{country}</span>
                 </address>
                 <a href={`tel: ${phone}`} className="mt-5 block font-medium text-2xl md:text-3xl">{phone}</a>
-                <a href={`mailto: ${email}`} className="mt-5 block">{email}</a>
+                <a href={`mailto: ${email}`} className="mt-5 block text-[#7ee787]">{email}</a>
             </div>
         </div>
     );
+      
 }
 
 export default ContactInfo;

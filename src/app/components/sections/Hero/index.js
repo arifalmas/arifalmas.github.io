@@ -1,6 +1,6 @@
 import { AiOutlineDownload } from "react-icons/ai";
 import { HERO } from "../../../data";
-import { Button, TypeWriter, HeroBottom } from "../../elements";
+import { Button, HeroBottom, TypeWriter } from "../../elements";
 
 function Hero() {
     const { name, title, subtitle, typeWriter, button, bgImage } = HERO

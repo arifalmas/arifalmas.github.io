@@ -1,13 +1,19 @@
-.Resume__Items .ResumeCard .ResumeCard__icon::after{
-    content: "";
-    position: absolute;
-    width: 2px;
-    background: #545454;
-    height: 100%;
-    bottom: -50px;
-    left: 48%;
+.Resume__Items .ResumeCard .ResumeCard__icon::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  background: linear-gradient(
+    #d2a8ff,
+    #a371f7 10%,
+    #242c26 70%,
+    #2ea043 80%,
+    #56d364
+  );
+  height: 100%;
+  bottom: -50px;
+  left: 48%;
 }
 
-.Resume__Items .ResumeCard:last-child .ResumeCard__icon::after{
-    display: none;
+.Resume__Items .ResumeCard:last-child .ResumeCard__icon::after {
+  display: none;
 }

@@ -7,7 +7,7 @@ export const ABOUT = {
     name: "Arif Almas",
     description: "I'm a Experienced Front End Web developer with over 1 years of experience in software industry. Excellent reputation for resolving problems and improving customer satisfaction. I'm a Front End Web developer to help you to build your personal website with seamless customization. I've worked on many complex data management project and I've been learning each day. I can work and manage from development to test to deployment & my another expertise is, I write very clean and readable code.",
     exports: ['React', 'Redux', 'Tailwind'],
-    image: "/Asset/me.jpeg",
+    image: "/Asset/me.png",
     services: [
         {
             title: "Front-end",

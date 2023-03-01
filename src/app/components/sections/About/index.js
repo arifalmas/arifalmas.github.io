@@ -6,6 +6,7 @@ function About() {
   return (
     <section name="About" className="element">
       <div className="container">
+      
         <div className="flex gap-10">
           {/* ==== About Content ==== */}
           <div className="flex-1">
@@ -16,6 +17,9 @@ function About() {
               typeWriter={exports}
               className="md:text-left text-center"
             />
+          <div className="hidden sm-flex justify-end items-center w-[40%] ml-22">
+           <img className="rounded-lg " src={image} alt={name}/>
+           </div>
             <p className="text-[#696969] max-w-full text-center text-lg md:text-left">
               {description}
             </p>
@@ -31,6 +35,7 @@ function About() {
             <img className="rounded-lg" src={image} alt={name}/>
           </div>
         </div>
+          
       </div>
     </section>
   );

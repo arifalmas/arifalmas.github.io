@@ -2,7 +2,7 @@ export const PORTFOLIO = {
   title: 'Portfolio',
   subtitle: 'My',
   typeWriter: ['Best Works', 'Latest Projects'],
-  github: 'https://github.com/coderarife/',
+  github: 'https://github.com/arifalmas/',
   types: ['All', 'Website', 'Mobile App', 'UI/UX Design', 'Graphic Design'],
   projects: [
     {
@@ -20,7 +20,7 @@ export const PORTFOLIO = {
       link: 'https://farmart-grocery-ecommerce-nextjs.vercel.app/',
       type: 'Website',
       tags: ['Web Design', 'Graphic Design', 'UI/UX Design'],
-      source: 'https://github.com/coderarife/farmart-grocery-ecommerce-nextjs'
+      source: 'https://github.com/arifalmas/farmart-grocery-ecommerce-nextjs'
     },
     
     {
@@ -38,7 +38,7 @@ export const PORTFOLIO = {
       link: 'https://chatapp-arif.netlify.app/',
       type: 'Website',
       tags: ['Web Design', 'Graphic Design', 'Mobile Apps'],
-      source: 'https://github.com/coderarife/react-firebase-chat-app-with-emoji'
+      source: 'https://github.com/arifalmas/react-firebase-chat-app-with-emoji'
     },
     {
       title: 'Zomato Landing Page',
@@ -55,7 +55,7 @@ export const PORTFOLIO = {
       link: 'https://zomato-clone-arif.netlify.app/',
       type: 'Website',
       tags: ['Web Design', 'Graphic Design', 'Mobile Apps'],
-      source: 'https://github.com/coderarife/zomato-clone-reactjs'
+      source: 'https://github.com/arifalmas/zomato-clone-reactjs'
     },
     {
       title: 'Furniture Landing Page',
@@ -72,7 +72,7 @@ export const PORTFOLIO = {
       link: 'https://farnitureweb-arif.netlify.app/',
       type: 'Website',
       tags: ['Web Design', 'Graphic Design', 'Mobile Apps'],
-      source: 'https://github.com/coderarife/farniture-web'
+      source: 'https://github.com/arifalmas/farniture-web'
     },
     {
       title: 'Little-Netflix Landing Page',
@@ -90,7 +90,7 @@ export const PORTFOLIO = {
       link: 'https://little-netflix-arif.netlify.app/',
       type: 'Website',
       tags: ['Web Design', 'Graphic Design', 'Mobile Apps'],
-      source: 'https://github.com/coderarife/little-netflix-react'
+      source: 'https://github.com/arifalmas/little-netflix-react'
     },
     {
       title: 'Unsplash landing Page',
@@ -107,7 +107,7 @@ export const PORTFOLIO = {
       link: 'https://unsplash-clone-arif.netlify.app/',
       type: 'Website',
       tags: ['Web Design', 'Graphic Design', 'Mobile Apps'],
-      source: 'https://github.com/coderarife/unsplash-clone-js'
+      source: 'https://github.com/arifalmas/unsplash-clone-js'
     },
     {
       title: 'Resturant Landing Page',
@@ -140,7 +140,7 @@ export const PORTFOLIO = {
       link: 'https://megakit-web-arif.netlify.app/',
       type: 'Website',
       tags: ['Web Design', 'Graphic Design', 'Mobile Apps'],
-      source: 'https://github.com/coderarife/megakit-clone'
+      source: 'https://github.com/arifalmas/megakit-clone'
     },
     {
       title: 'Weather Landing Page',

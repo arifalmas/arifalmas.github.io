@@ -1,8 +1,6 @@
 {
-  "homepage": "https://arifalmas.github.io/arif.almas",
-  "name": "react-app",
+  "name": "arifalmas.github.io",
   "version": "1.0.0",
-  "private": true,
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -14,6 +12,14 @@
     "swiper": "^8.3.2",
     "typewriter-effect": "^2.19.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arifalmas/arifalmas.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arifalmas/arifalmas.github.io/issues"
+  },
+  "homepage": "https://github.com/arifalmas/arifalmas.github.io#readme",
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",

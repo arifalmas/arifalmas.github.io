@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/arifalmas/arifalmas.github.io/static/css/main.f5c7117d.css",
+    "main.js": "/arifalmas/arifalmas.github.io/static/js/main.8ce5534b.js",
+    "index.html": "/arifalmas/arifalmas.github.io/index.html",
+    "main.f5c7117d.css.map": "/arifalmas/arifalmas.github.io/static/css/main.f5c7117d.css.map",
+    "main.8ce5534b.js.map": "/arifalmas/arifalmas.github.io/static/js/main.8ce5534b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f5c7117d.css",
+    "static/js/main.8ce5534b.js"
+  ]
+}

@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/arifalmas/arifalmas.github.io/issues"
   },
-  "homepage": "https://github.com/arifalmas/arifalmas.github.io#readme",
+  "homepage": "https://github.com/arifalmas/arifalmas.github.io",
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",

@@ -1,8 +1,10 @@
 {
-  "homepage": "https://arifalmas.github.io/arifalmas.github.io",
+  "homepage": "https://arifalmas.github.io/",
   "name": "arifalmas.github.io",
   "version": "1.0.0",
+  "private": false,
   "dependencies": {
+    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",
@@ -12,13 +14,6 @@
     "reactjs-popup": "^2.0.5",
     "swiper": "^8.3.2",
     "typewriter-effect": "^2.19.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/arifalmas/arifalmas.github.io.git"
-  },
-  "bugs": {
-    "url": "https://github.com/arifalmas/arifalmas.github.io/issues"
   },
   "scripts": {
     "start": "react-scripts start",
